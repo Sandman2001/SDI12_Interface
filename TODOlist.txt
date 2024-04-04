@@ -1,0 +1,14 @@
+Goals: 
+Scope shot the interface
+Develop a PCB to interface to the Boron
+Build an endpoint for the results to be streamed to.
+ 
+
+steps to get there 
+
+firmare: 
+1. boron make boron blinky
+2. research boron gpio and communication protos
+3. research SDI12 interface
+4. write sample code to communicate sdi12 to boron
+5. write to server w/ boron
