@@ -32,4 +32,5 @@ void loop() {
   // Log.info("Sending Hello World to the cloud!");
   // Particle.publish("Hello world!");
   // delay( 10 * 1000 ); // milliseconds and blocking - see docs for more info!
+  // Hello
 }
