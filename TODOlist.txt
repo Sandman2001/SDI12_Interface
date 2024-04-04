@@ -5,12 +5,16 @@ Build an endpoint for the results to be streamed to.
  
  useful files
  boron API: https://docs.particle.io/reference/device-os/firmware/
+ SDI12 manual: https://www.sdi-12.org/current_specification/SDI-12_version-1_4-Jan-30-2021.pdf
+ product to use(sdi12 proto): https://www.licor.com/env/products/LI-710/index'
+ an example SDI12 lib created for the particle electron: https://github.com/robynjayqueerie/electron-sdi12-library/tree/master/doc 
+ aruino sdi12, portential plug and play: https://github.com/joaquinperaza/Arduino-SDI-12
 
 steps to get there 
 
 firmare: 
-1. boron make boron blinky
-2. research boron gpio and communication protos
-3. research SDI12 interface
+1. boron make boron blinky (done)
+2. research boron gpio and communication protos (done)
+3. research SDI12 interface (ACTIVE) (read 3-4. 7-appendix)
 4. write sample code to communicate sdi12 to boron
 5. write to SQL server w/ boron
