@@ -21,13 +21,14 @@ SerialLogHandler logHandler(LOG_LEVEL_INFO);
 
 // setup() runs once, when the device is first turned on
 void setup() {
+  
   // Put initialization like pinMode and begin functions here
 }
 
 // loop() runs over and over again, as quickly as it can execute.
 void loop() {
   // The core of you//test
-  
+
   // Example: Publish event to cloud every 10 seconds. Uncomment the next 3 lines to try it!
   // Log.info("Sending Hello World to the cloud!");
   // Particle.publish("Hello world!");

@@ -11,4 +11,4 @@ firmare:
 2. research boron gpio and communication protos
 3. research SDI12 interface
 4. write sample code to communicate sdi12 to boron
-5. write to server w/ boron
+5. write to SQL server w/ boron
