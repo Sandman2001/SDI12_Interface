@@ -3,6 +3,8 @@ Scope shot the interface
 Develop a PCB to interface to the Boron
 Build an endpoint for the results to be streamed to.
  
+ useful files
+ boron API: https://docs.particle.io/reference/device-os/firmware/
 
 steps to get there 
 
