@@ -20,15 +20,22 @@ SYSTEM_THREAD(ENABLED);
 SerialLogHandler logHandler(LOG_LEVEL_INFO);
 
 // setup() runs once, when the device is first turned on
-void setup() {
-  digitalWrite
-  // Put initialization like pinMode and begin functions here
+int LED = D1;              // LED connected to D1
+int LED2 = D2;              // LED connected to D1
 
+void setup() {
+  pinMode(LED, OUTPUT);    // sets pin as output
+  pinMode(LED2, OUTPUT); 
 }
 
 // loop() runs over and over again, as quickly as it can execute.
 void loop() {
-  // The core of you//test
+  digitalWrite(LED, HIGH); // sets the LED on
+  digitalWrite(LED2, HIGH); // sets the LED on
+  delay(200);              // waits for 200mS
+  digitalWrite(LED, LOW);  // sets the LED off
+  digitalWrite(LED2, LOW);  // sets the LED off
+  delay(200);              // waits for 200mS
 
   // Example: Publish event to cloud every 10 seconds. Uncomment the next 3 lines to try it!
   // Log.info("Sending Hello World to the cloud!");
