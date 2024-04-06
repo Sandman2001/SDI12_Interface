@@ -22,10 +22,9 @@ SerialLogHandler logHandler(LOG_LEVEL_INFO);
 // setup() runs once, when the device is first turned on
 int LED = D1;              // LED connected to D1
 int LED2 = D2;              // LED connected to D1
-
+//init serial transfer
 void setup() {
-  pinMode(LED, OUTPUT);    // sets pin as output
-  pinMode(LED2, OUTPUT); 
+
 }
 
 // loop() runs over and over again, as quickly as it can execute.

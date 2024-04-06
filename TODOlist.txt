@@ -9,6 +9,7 @@ Build an endpoint for the results to be streamed to.
  product to use(sdi12 proto): https://www.licor.com/env/products/LI-710/index'
  an example SDI12 lib created for the particle electron: https://github.com/robynjayqueerie/electron-sdi12-library/tree/master/doc 
  aruino sdi12, portential plug and play: https://github.com/joaquinperaza/Arduino-SDI-12
+ arduino interupts: https://dronebotworkshop.com/interrupts/
 
 steps to get there 
 
